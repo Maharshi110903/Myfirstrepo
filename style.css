@@ -1,0 +1,56 @@
+h4{
+    background-color: #18f118b9;
+    margin: 10px;
+    padding: 20px;
+    font-size: 22px;
+    color: #f50909;
+
+}
+form{
+    font-size: 22px;
+}
+
+input,select,option,p,textarea{
+    font-size: 22px;
+}
+
+.name,.tyt{
+    color: rgb(165, 29, 243);
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px;
+    background-color: aqua;
+    border: 3px solid red;
+}
+
+#maha{
+    background-color: darkorange;
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px;
+}
+
+button:hover{
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(188, 228, 13);
+    border: 3px dashed red;
+    font-style: italic;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    margin: 10px;
+}   
+.op{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.opp{
+    display: flex;
+    justify-content: space-evenly;
+}
+

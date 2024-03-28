@@ -1,0 +1,37 @@
+<html>
+<head>   
+    <title>one</title>
+    <style>
+      #demo,#demo1{
+        font-size: 54px;
+        font-style: unset;
+        color: #f80a0a;
+      }
+      #demo span,#demo1 span{
+        color: #0000ff;
+        font-size: 62px;
+      }
+    </style>
+    
+</head>
+<body>
+
+  <p id="demo"></p>
+  <p id="demo1"></p>
+  <script>
+
+    hello = (a,b) => a * b;
+    let total = hello(2, 12);
+    document.getElementById("demo").innerHTML="calculate multiplication - <span>"+total + "</span>";
+
+    function hi(r){
+      let area = 3.14 * r * r;
+      return area; 
+    }
+    let result = hi(7);
+    document.getElementById("demo1").innerHTML="calculate area of a circle - <span>"+result + "</span>";
+</script>
+
+
+</body>
+</html>

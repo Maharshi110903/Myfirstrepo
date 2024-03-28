@@ -1,0 +1,25 @@
+#bg{
+    
+    
+    height: 100%;
+    width: 100%;
+    background-image: url(./bg3.jpg);
+    background-size: cover;
+    font-size: 34px;
+    font-style: italic;
+    background-attachment: fixed;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}  
+h1{ 
+    position: absolute;
+    top: 26%;
+    left: 53.7%;
+    mix-blend-mode: difference;
+    /* background-color: rgb(27, 12, 241); */
+    color: #ee5454;
+}

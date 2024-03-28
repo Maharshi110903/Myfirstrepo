@@ -1,0 +1,250 @@
+<html>
+<head>
+    <title>Title Bar</title>
+    <link href= "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        ul{
+            
+            list-style-type: none;
+            padding: 10px;
+
+        }
+        li{
+            float: left;
+            font-style: italic;
+            font-size: 19px;
+            
+        }
+        a{
+            color: #ff0000;
+            padding: 30px;
+            text-decoration: dashed;
+            background-color: #ffff00c5;
+            
+            }
+        a:hover{
+            background-color: #7fff00;
+            border-radius: 7px;
+            
+            }
+        /* .op{
+            
+            text-align: center;
+            text-decoration: none;
+            font-size: 22px;
+        } */
+        button:hover{
+        font-size: 30px;
+        padding: 10px;
+        margin: 5px;
+        background-color: rgb(188, 228, 13);
+        border: 3px dashed red;
+        font-style: italic;
+        }
+
+        .tyt{
+        color: rgb(165, 29, 243);
+        font-size: 25px;
+        margin: 5px;
+        padding: 10px;
+        background-color: aqua;
+        border: 3px solid red;
+        }
+
+        
+        .txt{
+            height: auto;
+            width: auto;
+            border: 3px dotted red;
+            background-color: #7fff00;
+            font-size: 33px;
+            font-style: oblique;
+            color: #e712cb;
+            overflow: scroll;
+        }
+
+    .box{
+    height: 150px;
+    width: 150px;
+    border: 4px solid #f116d4;
+    margin: 20px;
+    font-size: 22px;
+    text-align: center;
+    }   
+
+    .ai{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .oppp{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+
+    }
+
+    .home{
+        height: 55px;
+        width: 209px;
+        background-color: #3fb3e9;
+        transition: height 2s;
+        overflow: hidden;
+    }
+    .home:hover{
+        height: 35%;
+        background-size: cover;
+    }
+
+    /* @keyframes example{
+        0%{background-image: url("Desktop\1.jpg");}
+        50%{background-image: url("Desktop\2.png");}
+        100%{background-image: url("Desktop\3.jpg");}
+    } */
+
+    /* .gfg{
+        animation-duration: 10s;
+        border-radius: 20%;
+        height: 50px;
+        width: 60px;
+        background-image: url(https://img.freepik.com/free-vector/planet-earth_1308-82523.jpg);
+        background-color: blueviolet;
+        border: 10px solid yellow;
+    } */
+
+    @keyframes mah {
+        0%{background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/120px-HTML5_logo_and_wordmark.svg.png);}
+        /* 25%{background-image: url(Desktop\1.jpg);} */
+        50%{background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/363px-CSS3_logo_and_wordmark.svg.png);}
+        100%{background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/600px-JavaScript-logo.png);}
+    }
+
+    .rto{
+        height: 200px;
+        width: 200px;
+        /* background-color: #f116d4; */
+        border-radius: 20%;
+        animation-name: mah;
+        background-size: cover;
+        animation-duration: 3s;
+        border: 5px solid #ff1100;
+        transform: rotate(360deg);
+        margin-right: 30px;      
+        animation-iteration-count: infinite;
+    }
+    .container{
+        display: flex;
+    }
+    </style>
+
+ </head>
+
+<body>
+    <br>
+    <ul>
+        <li><a href="#"><b>Home</b></a>|</li>
+        <li><a href="#"><b>Contact</b></a>|</li>
+        <li><a href="#"><b>Service</b></a>|</li>
+        <li><a href="#"><b>About</b></a>|</li>
+        <li><a href="#"><b>Product</b></a></li>
+        <li><div class="home"><b>MIRACLE MIRACLE MIRACLE MIRACLE MIRACLE MIRACLE MIRACLE MIRACLE MIRACLE MIRACLE MIRACLE MIRACLE MIRACLE MIRACLE MIRACLE MIRACLE </b></div></li>
+        <!-- <button>Hover me</button> -->
+        
+        <li style="float: right;"><a href="#"><b>Login</b></a></li>
+        <li style="float: right;"><a href="#"><b>Sign Up</b></a>|</li>
+        <li style="float: right;"><a href="#"><b>Search</b></a>|</li><br><br><br>
+        <marquee>
+        <img src="https://lh3.googleusercontent.com/p/AF1QipOLFROzOJhi_KdssL_NWrjVmNRf_3smNBqH0Hs7=s680-w680-h510" width="450px">
+        <img src="https://lh3.googleusercontent.com/p/AF1QipNxx2pKJuMCPy8f0TF1eim4xmD2_aZC72d39yUn=s680-w680-h510" width="400px" height="230px">
+        <img src="https://lh3.googleusercontent.com/p/AF1QipOLFROzOJhi_KdssL_NWrjVmNRf_3smNBqH0Hs7=s680-w680-h510" width="450px">
+        <img src="https://lh3.googleusercontent.com/p/AF1QipNxx2pKJuMCPy8f0TF1eim4xmD2_aZC72d39yUn=s680-w680-h510" width="400px" height="230px">
+        </marquee>
+    </ul>
+    <br>
+    <marquee class="tyt" direction="right"><b> M A H A R S H I </b> </marquee><br>
+    <br><br>
+
+    <div class="txt">
+        <b>Miracle Miracle Miracle Miracle Miracle Miracle Miracle Miracle Miracle Miracle Miracle Miracle Miracle Miracle Miracle Miracle Miracle Miracle Miracle Miracle Miracle</b>
+    </div>
+    
+
+    <div class="ai"> 
+        <div class="box"><h3>Home 1 </h3></div>
+        <div class="box"><h3>Contact 2 </h3></div>
+        <div class="box"><h3>Service 3 </h3></div>
+        <div class="box"><h3>Product 4 </h3></div>
+    </div>
+
+     <div class="oppp">
+            <div class="box">Kailash</div>
+            <div class="box">Arjun</div>
+            <div class="box">Ravikant</div>
+            <div class="box">IANT</div>
+        </div>
+    <!-- <div class="gfg"></div> -->
+
+    <div class="container">
+        <div class="rto"> </div>
+        <div class="rto"> </div>
+        <div class="rto"> </div>
+        <div class="rto"> </div>
+        <div class="rto"> </div>
+    </div>
+    <br>
+    <table class="table table-dark table-striped" style="height: 400px;">
+        <tr>
+            <th>SNo</th>
+            <th>Name</th>
+            <th>Phone</th>
+            <th>Address</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Pinki</td>
+            <td>879878978</td>
+            <td>Janakpuri</td>
+            <td>Delhi</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Sarika</td>
+            <td>800878978</td>
+            <td>Pritampura</td>
+            <td>New Delhi</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Vicky</td>
+            <td>879844978</td>
+            <td>Seemapuri</td>
+            <td>Old Delhi</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Sarita</td>
+            <td>879811978</td>
+            <td>Bai Ka Bagecha</td>
+            <td>Old Jablapur</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Varun</td>
+            <td>879811978</td>
+            <td>Lal Mati</td>
+            <td>New Jablapur</td>
+        </tr>
+    </table>
+    <script type="text">
+        alert("error!!");
+    </script>
+
+
+</body>
+</html>
+
+
+<!-- dil se pyaar, mehnat khatam toh sab khatam 
+har generation mein ek hota hai jo sab ko aage  -->
